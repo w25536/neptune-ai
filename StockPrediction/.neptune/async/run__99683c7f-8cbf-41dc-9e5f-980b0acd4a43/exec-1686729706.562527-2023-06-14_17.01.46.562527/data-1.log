@@ -1,8 +1,0 @@
-{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "SMA"}, "version": 1}
-{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": "stock-prediction-machine-learning"}, "version": 2}
-{"obj": {"type": "AssignString", "path": ["monitoring", "359fef61", "hostname"], "value": "suhjunghos-MacBook-Pro.local"}, "version": 3}
-{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "suhjunghos-MacBook-Pro.local"}, "version": 4}
-{"obj": {"type": "AssignString", "path": ["monitoring", "359fef61", "pid"], "value": "32177"}, "version": 5}
-{"obj": {"type": "AssignString", "path": ["monitoring", "359fef61", "tid"], "value": "8642372864"}, "version": 6}
-{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["neptune", "MA_Simple", "stockprediction"]}, "version": 7}
-{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8}
