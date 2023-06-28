@@ -22,12 +22,9 @@ window_size = 50
 
 # Initialize a Neptune run
 run = neptune.init_run(
-    project="w25536/StockPrediction",
-    name="EMA",
-    description="stock-prediction-machine-learning",
-    tags=["stockprediction", "MA_Exponential", "neptune"],
-    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI2ZGUxZWY5Yi01YTdjLTQ5YjEtYjQ5YS02OGYyMjA1NDMyMzkifQ==", # your credentials
-
+    project="common/fbprophet-integration",
+    api_token=neptune.ANONYMOUS_API_TOKEN,
+    tags=["prophet", "additional regressors", "script"],  # optional
 )
 
 ###### Exponential MA
