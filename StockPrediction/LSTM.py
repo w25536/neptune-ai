@@ -26,17 +26,11 @@ cur_batch_size = 1
 
 
 
-
-# Initialize a Neptune run
 run = neptune.init_run(
-    project="w25536/StockPrediction",
-    name="LSTM",
-    description="stock-prediction-machine-learning",
-    tags=["stockprediction", "LSTM", "neptune"],
-    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI2ZGUxZWY5Yi01YTdjLTQ5YjEtYjQ5YS02OGYyMjA1NDMyMzkifQ==", # your credentials
-
+    project="common/fbprophet-integration",
+    api_token=neptune.ANONYMOUS_API_TOKEN,
+    tags=["prophet", "additional regressors", "script"],  # optional
 )
-
 
 
 # Train and evaluate the LSTM model
