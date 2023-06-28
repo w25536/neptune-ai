@@ -31,12 +31,9 @@ best_params = {}
 
 # Initialize a Neptune run
 run = neptune.init_run(
-    project="w25536/StockPrediction",
-    name="LSTM_Optimizer",
-    description="stock-prediction-machine-learning",
-    tags=["stockprediction", "LSTM", "neptune", "Hyperparameter"],
-    api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI2ZGUxZWY5Yi01YTdjLTQ5YjEtYjQ5YS02OGYyMjA1NDMyMzkifQ==", # your credentials
-
+    project="common/fbprophet-integration",
+    api_token=neptune.ANONYMOUS_API_TOKEN,
+    tags=["prophet", "additional regressors", "script"],  # optional
 )
 
 
