@@ -7,18 +7,19 @@ Have fixed
 
 
 
-
+```sh
 pip uninstall -y neptune 
 pip uninstall -y neptune-client
 
 pip install prophet
 pip uninstall -y prophet
 pip install --force-reinstall prophet
-
+```
 
 
 *Apple Silicon (M1 Max in my case) by installing older versions of both pystan and prophet:
 
+```sh
 pip install pystan==2.19.1.1
 pip install prophet==1.0
-
+```
